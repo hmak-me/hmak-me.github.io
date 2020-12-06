@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
 import Menu from "../menu";
+import Logo from "../../components/logo"
 import styles from "./index.module.styl";
 
 const Header = () => {
@@ -13,7 +14,9 @@ const Header = () => {
 
   return (
     <header className={styles.header}>
-      <Link className={styles.logo} to="/">Logo</Link>
+      <Link className={styles.logo} to="/">
+        <Logo />
+      </Link>
 
       <button
         className={`${styles.burger} ${menuOpen ? styles.open : ''}`}
