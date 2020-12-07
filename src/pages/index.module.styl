@@ -1,26 +1,65 @@
 .homePage
   display: flex
-  justify-content: space-between
 
-  .info
+  :global(.container)
     display: flex
-    flex-direction: column
-    margin-top: 150px
-    margin-bottom: 30px
+    justify-content: space-between
+    overflow: hidden
 
-    .hi
-      font-size: 2em
-      line-height: 1
+    aside
+      padding: 20px 0
+      display: flex
+      flex-direction: column
+      justify-content: space-between
 
-    .name
-      font-size: 7em
-      font-weight: 700
-      line-height: 1
-      margin-left: -0.05em
+      .info
+        display: flex
+        flex-direction: column
+        margin-top: 150px
 
-    .jobTitle
-      color: var(--gray6)
-      text-transform uppercase
-      font-size: 1.25em
-      letter-spacing 1.05em
-      margin-left: 0.15em
+        .hi
+          font-size: 2em
+          line-height: 1
+
+        .name
+          font-size: 7em
+          font-weight: 700
+          line-height: 1
+          margin-left: -0.05em
+
+        .jobTitle
+          color: var(--gray6)
+          text-transform uppercase
+          font-size: 1.25em
+          letter-spacing 1.05em
+          margin-left: 0.15em
+
+        a
+          margin-top: 30px
+
+      .socials
+        display: flex
+        position: relative
+        font-size: 0.9em
+
+        &::after
+          content: ''
+          display: block
+          height: 1px
+          background: var(--gray4)
+          position: absolute
+          left: 100%
+          top: 50%
+          width: 100vw
+
+        .social
+          a
+            display: block
+            text-decoration none
+            padding: 10px 20px
+            text-transform uppercase
+            color: var(--gray6)
+            transition color .3s
+
+            &:hover
+              color: var(--gray12)

@@ -1,62 +1,64 @@
-.header :global(.container)
-  display: flex
-  align-items: center
-  justify-content: space-between
-  padding: 30px 60px
+.header
   position: relative
-  z-index: 3
+  z-index: 10
 
-  .logo
-    z-index: 1
-    position: relative
+  :global(.container)
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 30px 60px
 
-  .burger
-    width: 48px
-    height: 48px
-    position: relative
-    z-index: 1
-    -webkit-appearance: none
-    -moz-appearance: none
-    appearance: none
-    background: none
-    outline none
-    border none
-    cursor: pointer
+    .logo
+      z-index: 1
+      position: relative
 
-    &::before, &::after
-      content: ''
-      display: block
-      width: 28px
-      height: 2px
-      background: var(--gray12)
-      position: absolute
-      top: 50%
-      left: 50%
-      transition transform .3s ease-in-out
+    .burger
+      width: 48px
+      height: 48px
+      position: relative
+      z-index: 1
+      -webkit-appearance: none
+      -moz-appearance: none
+      appearance: none
+      background: none
+      outline none
+      border none
+      cursor: pointer
 
-    &::before
-      transform: translate3d(-50%, -7px, 0) rotateZ(0deg)
+      &::before, &::after
+        content: ''
+        display: block
+        width: 28px
+        height: 2px
+        background: var(--gray12)
+        position: absolute
+        top: 50%
+        left: 50%
+        transition transform .3s ease-in-out
 
-    &::after
-      transform: translate3d(-50%, 7px, 0) rotateZ(0deg)
-
-    &:not(.open):hover
       &::before
-        transform: translate3d(-50%, -7px, 0) rotateZ(-5deg)
+        transform: translate3d(-50%, -7px, 0) rotateZ(0deg)
 
       &::after
-        transform: translate3d(-50%, 7px, 0) rotateZ(5deg)
+        transform: translate3d(-50%, 7px, 0) rotateZ(0deg)
 
-    &.open
-      &::before
-        transform: translate3d(-50%, 0, 0) rotateZ(-45deg)
-
-      &::after
-        transform: translate3d(-50%, 0, 0) rotateZ(45deg)
-
-      &:hover
+      &:not(.open):hover
         &::before
-          transform: translate3d(-50%, 0, 0) rotateZ(-40deg)
+          transform: translate3d(-50%, -7px, 0) rotateZ(-5deg)
 
         &::after
-          transform: translate3d(-50%, 0, 0) rotateZ(40deg)
+          transform: translate3d(-50%, 7px, 0) rotateZ(5deg)
+
+      &.open
+        &::before
+          transform: translate3d(-50%, 0, 0) rotateZ(-45deg)
+
+        &::after
+          transform: translate3d(-50%, 0, 0) rotateZ(45deg)
+
+        &:hover
+          &::before
+            transform: translate3d(-50%, 0, 0) rotateZ(-40deg)
+
+          &::after
+            transform: translate3d(-50%, 0, 0) rotateZ(40deg)
