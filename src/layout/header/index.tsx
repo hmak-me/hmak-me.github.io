@@ -14,14 +14,16 @@ const Header = () => {
 
   return (
     <header className={styles.header}>
-      <Link className={styles.logo} to="/">
-        <Logo />
-      </Link>
+      <div className="container">
+        <Link className={styles.logo} to="/">
+          <Logo />
+        </Link>
 
-      <button
-        className={`${styles.burger} ${menuOpen ? styles.open : ''}`}
-        onClick={handleToggleMenu}
-      />
+        <button
+          className={`${styles.burger} ${menuOpen ? styles.open : ''}`}
+          onClick={handleToggleMenu}
+        />
+      </div>
 
       <Menu isOpen={menuOpen} />
     </header>
