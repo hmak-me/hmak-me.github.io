@@ -5,8 +5,15 @@ import styles from "./index.module.styl"
 import GitHubIcon from "../../assets/icons/github"
 import TwitterIcon from "../../assets/icons/twitter"
 import LinkedInIcon from "../../assets/icons/linkedin"
-import BookIcon from "../../assets/icons/book"
 import BriefcaseIcon from "../../assets/icons/briefcase"
+import PhoneIcon from "../../assets/icons/phone"
+import EmailIcon from "../../assets/icons/email"
+import WebsiteIcon from "../../assets/icons/website"
+import TrophyIcon from "../../assets/icons/trophy"
+import BookIcon from "../../assets/icons/book"
+import UserIcon from "../../assets/icons/user"
+import ShareIcon from "../../assets/icons/share"
+import ContactIcon from "../../assets/icons/contact"
 
 
 const CVPage = () => {
@@ -23,26 +30,13 @@ const CVPage = () => {
             </div>
             <div className={styles.jobTitle}>Full Stack Web Developer</div>
           </section>
-
-          <section className={styles.contacts}>
-            <ul className={styles.links}>
-              <li className={styles.link} >
-                <a data-label='P' href="tel:+989134625632">+98 913-462-5632</a>
-              </li>
-              <li className={styles.link} >
-                <a data-label='E' href="mailto:8bitsight@gmail.com">8bitsight@gmail.com</a>
-              </li>
-              <li className={styles.link} >
-                <a data-label='W' href="https://hmak.me">hmak.me</a>
-              </li>
-            </ul>
-          </section>
         </header>
 
 
         <aside>
           <section className={styles.profile}>
             <header>
+              <UserIcon />
               <h3>Profile</h3>
             </header>
 
@@ -51,26 +45,47 @@ const CVPage = () => {
             in various programming languages but recently chose JS as my speaking language.</p>
           </section>
 
+          <section className={styles.education}>
+            <header>
+              <BookIcon />
+              <h3>Education</h3>
+            </header>
+
+            <div>
+              <div className={styles.date}>Sep 23, 2015 - Jan 20, 2018</div>
+              <div className={styles.field}>Associate of Software Engineering</div>
+              <div className={styles.university}>Mohajer Technical and Vocational College</div>
+            </div>
+
+            <div>
+              <div className={styles.date}>Sep 23, 2019 - Now</div>
+              <div className={styles.field}>Bachelor of Software Engineering</div>
+              <div className={styles.university}>Shamsipour Technical and Vocational College</div>
+            </div>
+          </section>
+
           <section className={styles.awards}>
             <header>
+              <TrophyIcon />
               <h3>Awards</h3>
             </header>
 
             <div>
-              <span className={styles.date}>Jul 28, 2018</span>
-              <span className={styles.info}>18th Iran National Skills</span>
-              <span className={styles.award}>Gold Medal</span>
+              <div className={styles.date}>Jul 28, 2018</div>
+              <div className={styles.info}>18th Iran National Skills</div>
+              <div className={styles.award}>Gold Medal</div>
             </div>
 
             <div>
-              <span className={styles.date}>Aug 27, 2019</span>
-              <span className={styles.info}>45th WorldSkills Competition</span>
-              <span className={styles.award}>Medallion Of Excellence</span>
+              <div className={styles.date}>Aug 27, 2019</div>
+              <div className={styles.info}>45th WorldSkills Competition</div>
+              <div className={styles.award}>Medallion Of Excellence</div>
             </div>
           </section>
 
           <section className={styles.socials}>
             <header>
+              <ShareIcon />
               <h3>Socials</h3>
             </header>
 
@@ -95,28 +110,37 @@ const CVPage = () => {
               </li>
             </ul>
           </section>
+
+          <section className={styles.contacts}>
+            <header>
+              <ContactIcon />
+              <h3>Contacts</h3>
+            </header>
+
+            <ul className={styles.links}>
+              <li className={styles.link}>
+                <a href="tel:+989134625632">
+                  <PhoneIcon/>
+                  <span>+98 913-462-5632</span>
+                </a>
+              </li>
+              <li className={styles.link}>
+                <a href="mailto:8bitsight@gmail.com">
+                  <EmailIcon/>
+                  <span>8bitsight@gmail.com</span>
+                </a>
+              </li>
+              <li className={styles.link}>
+                <a href="https://hmak.me">
+                  <WebsiteIcon/>
+                  <span>hmak.me</span>
+                </a>
+              </li>
+            </ul>
+          </section>
         </aside>
 
         <main>
-          <section className={styles.education}>
-            <header>
-              <BookIcon />
-              <h3>Education</h3>
-            </header>
-
-            <div>
-              <span className={styles.date}>Sep 23, 2015 - Jan 20, 2018</span>
-              <span className={styles.field}>Associate of Software Engineering</span>
-              <span className={styles.university}>Mohajer Technical and Vocational College</span>
-            </div>
-
-            <div>
-              <span className={styles.date}>Sep 23, 2019 - Now</span>
-              <span className={styles.field}>Bachelor of Software Engineering</span>
-              <span className={styles.university}>Shamsipour Technical and Vocational College</span>
-            </div>
-          </section>
-
           <section className={styles.work}>
             <header>
               <BriefcaseIcon />
