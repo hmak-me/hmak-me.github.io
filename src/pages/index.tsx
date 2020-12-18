@@ -1,8 +1,6 @@
 import React from "react"
 import SEO from "../components/seo"
 import styles from "./index.module.styl"
-import Button from "../components/button"
-import { Link } from "gatsby"
 
 const HomePage = () => (
   <main className={styles.homePage}>
@@ -14,10 +12,6 @@ const HomePage = () => (
           <div className={styles.hi}>Hi, I'm</div>
           <div className={styles.name}>Hossein</div>
           <div className={styles.jobTitle}>Web Developer</div>
-
-          <Link to='/cv'>
-            <Button>Download CV</Button>
-          </Link>
         </div>
 
         <ul className={styles.socials}>
