@@ -1,55 +1,60 @@
 import React from "react"
 import { Link } from "gatsby"
-import { useLocation } from '@reach/router';
+import { useLocation } from "@reach/router"
 import styles from "./index.module.styl"
 
 const links = [
   {
-    title: 'Home',
-    url: '/',
+    title: "Home",
+    url: "/"
   },
   {
-    title: 'Portfolio',
-    url: '/portfolio',
+    title: "Portfolio",
+    url: "/portfolio"
   },
   {
-    title: 'Contact',
-    url: '/contact',
+    title: "Contact",
+    url: "/contact"
   },
   {
-    title: 'Blog',
-    url: '/blog',
+    title: "Blog",
+    url: "/blog"
   },
   {
-    title: 'CV',
-    url: '/cv',
-  },
+    title: "CV",
+    url: "/cv"
+  }
 ]
 
 const Menu = ({ isOpen = false, setOpen }: { isOpen: boolean, setOpen: Function }) => {
-  const location = useLocation();
+  const location = useLocation()
 
   return (
-    <section className={`${styles.menu} ${isOpen ? styles.open : ''}`}>
-      <div className="container">
-        <nav>
-          <ul>
-            {links.map((link) => (
-              <li key={`link-${link.title}`}>
-                <Link
-                  to={link.url}
-                  onClick={() => {
-                    setTimeout(() => {
-                      setOpen(false)
-                    }, 200)
-                  }}
-                  className={location.pathname === link.url ? styles.active : ''}
-                >{link.title}</Link>
-              </li>
-            ))}
-          </ul>
-        </nav>
-      </div>
+    <section className={`${styles.menu} ${isOpen ? styles.open : ""}`}>
+      <nav>
+        <ul>
+          {links.map((link) => (
+            <li key={`link-${link.title}`}>
+              <Link
+                to={link.url}
+                onClick={() => {
+                  setTimeout(() => {
+                    setOpen(false)
+                  }, 200)
+                }}
+                className={location.pathname === link.url ? styles.active : ""}
+              >{link.title}</Link>
+            </li>
+          ))}
+        </ul>
+      </nav>
+
+      <ul className={styles.socials}>
+        <li className={styles.social}><a href="https://github.com/hmak-me">GitHub</a></li>
+        <li className={styles.social}><a href="https://linkedin.com/in/hmak-me/">LinkedIn</a></li>
+        <li className={styles.social}><a href="https://twitter.com/hmakme">Twitter</a></li>
+        <li className={styles.social}><a href="https://instagram.com/hmak.me">Instagram</a></li>
+      </ul>
     </section>
   )
 }
