@@ -38,7 +38,11 @@ const Menu = ({ isOpen = false, setOpen }: { isOpen: boolean, setOpen: Function 
               <li key={`link-${link.title}`}>
                 <Link
                   to={link.url}
-                  onClick={() => setOpen(false)}
+                  onClick={() => {
+                    setTimeout(() => {
+                      setOpen(false)
+                    }, 200)
+                  }}
                   className={location.pathname === link.url ? styles.active : ''}
                 >{link.title}</Link>
               </li>

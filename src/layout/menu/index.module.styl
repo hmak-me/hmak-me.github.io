@@ -5,7 +5,7 @@
   bottom 0
   left 0
   z-index: 0
-  background var(--gray2)
+  background: var(--gray2)
   display: flex
   align-items: center
   transform: translate3d(100%, 0, 0);
@@ -51,3 +51,13 @@
             width: 3px
             background: var(--gray4)
             transition background .3s ease-in-out
+
+
+
+
+@supports ((backdrop-filter: blur(50px))) {
+  .menu {
+    background: none
+    backdrop-filter: blur(50px) brightness(.5) contrast(.8);
+  }
+}
