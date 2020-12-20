@@ -17,10 +17,6 @@ const links = [
     url: "/contact"
   },
   {
-    title: "Blog",
-    url: "/blog"
-  },
-  {
     title: "CV",
     url: "/cv"
   }
