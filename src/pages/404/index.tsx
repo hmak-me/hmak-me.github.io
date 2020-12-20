@@ -1,10 +1,18 @@
 import React from "react"
 import SEO from "../../components/seo"
+import Button from '../../components/button'
+import { Link } from 'gatsby'
+import styles from './index.module.styl'
 
 const NotFoundPage = () => (
-  <main>
-    <SEO title="404: Not found" />
-    <h1>404: Not Found</h1>
+  <main className={styles.notFoundPage}>
+    <SEO title="Not found" />
+
+    <h2>Are You Lost?</h2>
+
+    <Link to='/'>
+      <Button>Take Me Home</Button>
+    </Link>
   </main>
 )
 
