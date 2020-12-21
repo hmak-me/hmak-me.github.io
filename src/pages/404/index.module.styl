@@ -3,6 +3,8 @@
   flex-direction: column
   align-items: center
   justify-content: center
+  padding: 0 40px 40px
+  text-align: center
 
   h2
     font-size: 10em
@@ -10,5 +12,29 @@
     font-weight: 700
     color: black
 
+  p
+    font-size: 1.2em
+    color: var(--gray6)
+    max-width: 40ch
+
   button
     margin-top: 50px
+
+@media only screen and (max-width: 900px)
+  .notFoundPage
+    h2
+      font-size: 8em
+      line-height: 1.2
+
+    p
+      font-size: 1em
+
+@media only screen and (max-width: 500px)
+  .notFoundPage
+    h2
+      font-size: 6em
+
+@media only screen and (max-width: 400px)
+  .notFoundPage
+    h2
+      font-size: 4em
