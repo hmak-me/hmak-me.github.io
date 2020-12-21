@@ -13,13 +13,16 @@
       height: 3500px
       top: 50%
       left: 50%
-      transform translate(-57%, -37%)
+      transform translate(-58%, -37%)
 
     path:first-child
       fill: var(--gray2)
+      stroke: var(--gray2)
 
     path:last-child
-      fill: var(--primary-color)
+      fill: var(--gray4)
+      stroke: var(--gray5)
+      stroke-width .5px
 
   :global(.container)
     display: flex
@@ -51,30 +54,85 @@
       left: 30px
       transform translateY(-.66em)
 
+    .link
+      color: var(--gray8)
+
+      &:hover
+        color: var(--gray12)
+
   .contacts
     .link
       display: flex
       align-items: center
       padding: 8px 0
       text-decoration none
+      font-size: 1.25em
 
       svg
         width: 24px
         height: 24px
-        margin-right: 10px
+        margin-right: 20px
 
   .socials
     .links
       display: flex
       justify-content: space-between
+      margin-top: 1em
 
       .link
         svg
-          width: 48px
-          height: 48px
+          width: 44px
+          height: 44px
 
 @supports ((backdrop-filter: blur(50px)))
   .contactPage
     section
       background: none
       backdrop-filter blur(20px) brightness(1.5)
+
+
+@media only screen and (max-width: 1500px)
+  .contactPage
+    section
+      font-size: 1em
+      min-width 280px
+      padding: 30px 50px
+
+    .socials
+      .links
+        .link
+          svg
+            width: 36px
+            height: 36px
+
+
+@media only screen and (max-width: 1200px)
+  .contactPage
+    .worldMap
+      svg
+        transform translate(-60%, -37%)
+
+    section
+      min-width 260px
+
+      h2
+        font-size: 2.7em
+
+
+@media only screen and (max-width: 900px)
+  .contactPage
+    .worldMap
+      svg
+        height: 4000px
+        transform translate(-63.2%, -37%)
+        opacity: .7
+
+    :global(.container)
+      align-items: center
+
+@media only screen and (max-width: 500px)
+  .contactPage
+
+    :global(.container)
+      align-items: stretch
+      padding-top: 40px

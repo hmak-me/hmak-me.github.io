@@ -34,7 +34,7 @@ const ContactPage = () => {
           </section>
 
           <section className={styles.socials}>
-            <h2 className={styles.title}>Find Me</h2>
+            <h2 className={styles.title}>Find Me On...</h2>
 
             <div className={styles.links}>
               <a target='_blank' href={'https://github.com/hmak-me'} className={styles.link}>
