@@ -1,0 +1,117 @@
+{
+  "firstName": "Hossein",
+  "lastName": "Maktoobian",
+  "jobTitle": "Full Stack Web Developer",
+
+  "profile": "Self taught programmer who is eager to learn more and more everyday. I got engaged with computers when I was 5, and that was the beginning of the love story. Started my web development career in high school (2013) and kept it up until this moment. I've coded in various programming languages but recently chose JS as my speaking language.",
+
+  "contacts": {
+    "phone": "+989134625632",
+    "email": "8bitsight@gmail.com",
+    "website": "https://hmak.me"
+  },
+
+  "socials": {
+    "github": "hmak-me",
+    "linkedin": "hmak-me"
+  },
+
+  "educations": [
+    {
+      "date": "Sep 23, 2015 - Jan 20, 2018",
+      "university": "Mohajer Technical and Vocational College",
+      "degree": "Associate of Software Engineering"
+    },
+    {
+      "date": "Sep 23, 2019 - Now",
+      "university": "Shamsipour Technical and Vocational College",
+      "degree": "Bachelor of Software Engineering"
+    }
+  ],
+
+  "awards": [
+    {
+      "date": "Jul 28, 2018",
+      "competition": "18th Iran National Skills",
+      "award": "Gold Medal"
+    },
+    {
+      "date": "Aug 27, 2019",
+      "competition": "45th WorldSkills Competition",
+      "award": "Medallion Of Excellence"
+    }
+  ],
+
+  "experiences": [
+    {
+      "date": "2014 - Now",
+      "location": "Isfahan, Iran",
+      "jobTitle": "Freelance Developer",
+      "description": "I've been a freelance developer since 2014. Created an online shopping website using pure PHP, HTML and CSS as my first project. Then I registered in a freelancing website and took a couple of iOS mobile applications and created them with Objective-C and Swift. I've built on mobile and desktop games using Unity Engine. I also created full websites.",
+      "highlights": [
+        "",
+        ""
+      ]
+    },
+    {
+      "date": "Feb 2016 - Mar 2016",
+      "location": "Ravis | Isfahan, Iran",
+      "jobTitle": "iOS Developer",
+      "description": "Ravis is a flight ticket reseller which was providing a platform to sell charter flight tickets online. They had a fully functional website and I've joined their team to develop an iOS application with Swift to communicate with their APIs and provide the same functionality to their mobile users.",
+      "highlights": [
+        "",
+        ""
+      ]
+    },
+    {
+      "date": "2016 - 2017",
+      "location": "Solar Sky | Iceland",
+      "jobTitle": "Front-end Developer",
+      "description": "I was working with a team of .NET developers which was working remotely with Solar Sky which was a cleaning services company. We were working on their internal management panel to make managing their employees and clients easier. It was built on a C# and .NET base and I implemented their UI designs with HTML5, SCSS and jQuery.",
+      "highlights": [
+        "",
+        ""
+      ]
+    },
+    {
+      "date": "Mar 2019 - May 2019",
+      "location": "Raadkish | Kish, Iran",
+      "jobTitle": "Front-end Developer",
+      "description": "During my training for WorldSkills 2019 competition, I've joined Raadkish as a front-end developer to improve my skills there. They were working on startup fintech and tourist services. I've learned to code in React and React Native to develop the front-end parts of their websites and applications. Working along with Hadi Mostafapour took me to another level of web development. It was a great experience to see how things can be done better and faster, and learn best practices and new technologies in web development.",
+      "highlights": [
+        "",
+        ""
+      ]
+    },
+    {
+      "date": "Dec 2019 - Jul 2020",
+      "location": "Kish Airport | Kish, Iran",
+      "jobTitle": "Full-stack Developer",
+      "description": "Load and balance has some procedures to find the center of gravity of an airplane to use it for taking-off and landing. They were calculating the CG manually on papers, and my job was to created a website to do this automatically. It was created with Laravel and React. A challenging part of this project was its' data entry forms, since there was a ton of nested and related forms which was addressed by creating a form scaffolding structure, to create all those forms based on their database structure. I also had to work with the Airport DCS APIs to get flights and passengers data.",
+      "highlights": [
+        "",
+        ""
+      ]
+    },
+    {
+      "date": "Jan 2020 - May 2020",
+      "location": "Hamresan | Tehran, Iran",
+      "jobTitle": "Full-stack Developer",
+      "description": "I joined as the first developer to the Hamresan company as a full-stack developer. We started a PWA application to provide live flight and cruises schedule, and let users get their flight boarding pass or reserve and buy cruise tickets on their phones. This project was built with Node.js and React and used GraphQL and Socket.io for the communication between the client and the server.",
+      "highlights": [
+        "",
+        ""
+      ]
+    },
+    {
+      "date": "May 2020 - Now",
+      "location": "Hamresan | Tehran, Iran",
+      "jobTitle": "Project Manager & Team Lead",
+      "description": "After the company decided to recruit more developers, I've worked as the project manager and the team lead, learned to be a Scrum master and manage a project. We have created several web applications since then. A PWA Podcast app, a couple of medical websites and an online learning platform. Meanwhile, I was working as a Back-end developer and implemented a Node.js framework with Typescript which boosts bootstrapping our projects.",
+      "highlights": [
+        "",
+        ""
+      ]
+    }
+  ]
+}
