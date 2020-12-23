@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{"5xiL":function(e,t,n){e.exports={title:"index-module--title--3iuga"}},"9DYZ":function(e,t,n){"use strict";n.r(t);var i=n("q1tI"),a=n.n(i),o=n("PIHY"),l=n("5xiL"),r=n.n(l);t.default=function(){return a.a.createElement("main",null,a.a.createElement(o.a,{title:"Portfolio"}),a.a.createElement("h1",{className:r.a.title},"Portfolio"))}}}]);
-//# sourceMappingURL=component---src-pages-portfolio-index-tsx-c982f2cc1b5d20932b80.js.map
