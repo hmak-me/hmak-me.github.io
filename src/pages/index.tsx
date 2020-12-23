@@ -130,7 +130,7 @@ const HomePage = () => {
 
     drawingCtx.lineWidth = 180
     drawingCtx.lineCap = 'round'
-    drawingCtx.moveTo(image.width, image.height * 0.1)
+    drawingCtx.moveTo(image.width, image.height * 0.15)
     drawingCtx.lineTo(0, image.height * 0.6)
     drawingCtx.stroke()
     drawingCtx.moveTo(0, image.height * 0.2)
