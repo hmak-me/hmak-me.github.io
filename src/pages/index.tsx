@@ -103,11 +103,11 @@ const HomePage = () => {
     if (e.keyCode === 91) {
       size = Math.max(10, size - 10)
 
-      cursor.style.width = cursor.style.height = `${size}px`
+      cursor.style.width = cursor.style.height = `${size * (canvas.width / image.width) * 2}px`
     } else if (e.keyCode === 93) {
       size = Math.min(100, size + 10)
 
-      cursor.style.width = cursor.style.height = `${size}px`
+      cursor.style.width = cursor.style.height = `${size * (canvas.width / image.width) * 2}px`
     }
   }
 
@@ -126,8 +126,6 @@ const HomePage = () => {
     drawingCanvas.width = imageCanvas.width = image.width
     drawingCanvas.height = imageCanvas.height = image.height
 
-    cursor.style.width = cursor.style.height = `${size}px`
-
     drawingCtx.lineWidth = 180
     drawingCtx.lineCap = 'round'
     drawingCtx.moveTo(image.width, image.height * 0.15)
@@ -138,6 +136,8 @@ const HomePage = () => {
     drawingCtx.stroke()
 
     handleWindowResize()
+
+    cursor.style.width = cursor.style.height = `${size * (canvas.width / image.width) * 2}px`
   }
 
   useEffect(() => {
