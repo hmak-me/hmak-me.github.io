@@ -15,11 +15,12 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className="container">
-        <Link className={styles.logo} to="/">
+        <Link className={styles.logo} to="/" aria-label='Home Page'>
           <Logo />
         </Link>
 
         <button
+          aria-label='Menu'
           className={`${styles.burger} ${menuOpen ? styles.open : ''}`}
           onClick={() => handleToggleMenu(!menuOpen)}
         />
