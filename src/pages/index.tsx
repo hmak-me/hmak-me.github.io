@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react"
 import SEO from "../components/seo"
 import styles from "./index.module.styl"
-import me from "../assets/images/me.jpg"
+import me from "../assets/images/me.webp"
 
 let lx = 0
 let ly = 0
