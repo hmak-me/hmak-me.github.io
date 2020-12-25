@@ -43,16 +43,16 @@ const Menu = ({ isOpen = false, setOpen }: { isOpen: boolean, setOpen: Function 
 
       <ul className={styles.socials}>
         <li className={styles.social}>
-          <a target='_blank' href="https://github.com/hmak-me">GitHub</a>
+          <a rel='noopener' target='_blank' href="https://github.com/hmak-me">GitHub</a>
         </li>
         <li className={styles.social}>
-          <a target='_blank' href="https://linkedin.com/in/hmak-me">LinkedIn</a>
+          <a rel='noopener' target='_blank' href="https://linkedin.com/in/hmak-me">LinkedIn</a>
         </li>
         <li className={styles.social}>
-          <a target='_blank' href="https://twitter.com/hmakme">Twitter</a>
+          <a rel='noopener' target='_blank' href="https://twitter.com/hmakme">Twitter</a>
         </li>
         <li className={styles.social}>
-          <a target='_blank' href="https://instagram.com/hmak.me">Instagram</a>
+          <a rel='noopener' target='_blank' href="https://instagram.com/hmak.me">Instagram</a>
         </li>
       </ul>
     </section>

@@ -116,7 +116,7 @@ const CVPage = () => {
 
                 {data.contacts.website && (
                   <li className={styles.link}>
-                    <a href={data.contacts.website}>
+                    <a target='_blank' rel='noopener' href={data.contacts.website}>
                       <WebsiteIcon/>
                       <span>{data.contacts.website.replace(/^https?:\/\//, '')}</span>
                     </a>
@@ -136,7 +136,7 @@ const CVPage = () => {
               <ul className={styles.links}>
                 {data.socials.github && (
                   <li className={styles.link}>
-                    <a href={`https://gihub.com/${data.socials.github}`}>
+                    <a target='_blank' rel='noopener' href={`https://gihub.com/${data.socials.github}`}>
                       <GitHubIcon />
                       <span>@{data.socials.github}</span>
                     </a>
@@ -145,7 +145,7 @@ const CVPage = () => {
 
                 {data.socials.linkedin && (
                   <li className={styles.link}>
-                    <a href={`https://linkedin.com/in/${data.socials.linkedin}`}>
+                    <a target='_blank' rel='noopener' href={`https://linkedin.com/in/${data.socials.linkedin}`}>
                       <LinkedInIcon />
                       <span>@{data.socials.linkedin}</span>
                     </a>
@@ -154,7 +154,7 @@ const CVPage = () => {
 
                 {data.socials.twitter && (
                   <li className={styles.link}>
-                    <a href={`https://twitter.com/${data.socials.twitter}`}>
+                    <a target='_blank' rel='noopener' href={`https://twitter.com/${data.socials.twitter}`}>
                       <TwitterIcon />
                       <span>@{data.socials.twitter}</span>
                     </a>

@@ -37,16 +37,16 @@ const ContactPage = () => {
             <h2 className={styles.title}>Find Me On</h2>
 
             <div className={styles.links}>
-              <a target='_blank' href={'https://github.com/hmak-me'} className={styles.link}>
+              <a rel='noopener' target='_blank' href={'https://github.com/hmak-me'} className={styles.link}>
                 <GitHubIcon/>
               </a>
-              <a target='_blank' href={'https://linkedin.com/in/hmak-me'} className={styles.link}>
+              <a rel='noopener' target='_blank' href={'https://linkedin.com/in/hmak-me'} className={styles.link}>
                 <LinkedInIcon/>
               </a>
-              <a target='_blank' href={'https://twitter.com/hmakme'} className={styles.link}>
+              <a rel='noopener' target='_blank' href={'https://twitter.com/hmakme'} className={styles.link}>
                 <TwitterIcon/>
               </a>
-              <a target='_blank' href={'https://instagram.com/hmak.me'} className={styles.link}>
+              <a rel='noopener' target='_blank' href={'https://instagram.com/hmak.me'} className={styles.link}>
                 <InstagramIcon/>
               </a>
             </div>
