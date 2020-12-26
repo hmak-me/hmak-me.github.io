@@ -1,1 +1,4 @@
-User-agent: * Disallow: /cv/
+User-agent: *
+Allow: /
+
+Sitemap: https://hmak.me/sitemap.xml
