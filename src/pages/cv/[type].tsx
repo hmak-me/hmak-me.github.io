@@ -14,7 +14,9 @@ import ShareIcon from "../../assets/icons/share"
 import ContactIcon from "../../assets/icons/contact"
 import styles from "./index.module.styl"
 
-import data from './index.json'
+import full from './data/full-stack.json'
+import front from './data/front-end.json'
+import back from './data/back-end.json'
 
 function formatPhoneNumber(phone: string): string {
   const match = phone.match(/(\+|00)?(\d{1,3})(\d{3})(\d{3})(\d{4})/)
@@ -23,7 +25,10 @@ function formatPhoneNumber(phone: string): string {
 }
 
 
-const CVPage = () => {
+const CVPage = (props) => {
+  console.log(props)
+  const data = full
+
   return (
     <main className={styles.cvPage}>
       <SEO title="CV" />

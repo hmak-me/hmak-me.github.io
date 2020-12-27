@@ -69,7 +69,7 @@
       position: relative
 
       &:not(:first-child)
-        margin-top: 40px
+        margin-top: 30px
 
       > *:not(header)
         padding-left: 52px
@@ -97,7 +97,9 @@
         display: flex
         flex-direction: column
         position: relative
-        padding-bottom: 40px
+
+        &:not(:last-child)
+          padding-bottom: 20px
 
         &::before
           content: ''
@@ -144,12 +146,12 @@
         font-weight: 500
 
       p, ul
-        margin-top: 5px
         color: var(--gray9)
 
-      ul
-        list-style-type disc
-        padding-left 40px
+      &.work
+        ul
+          list-style-type disc
+          padding-left 40px
 
     > main
       display: flex
@@ -169,12 +171,13 @@
               display: flex
               align-items: center
               margin-left: -10px
-              padding: 8px 10px
+              padding: 4px 10px
               text-decoration none
+              font-size: 1.05em
 
               svg
-                width: 18px
-                height: 18px
+                width: 16px
+                height: 16px
                 margin-right: 10px
                 fill: var(--gray-12)
 
@@ -195,27 +198,17 @@
       > main, > aside
         padding-bottom: 0
 
-      .work
-        article
-          &:last-child
-            padding-bottom: 0
-
       .header
         .info
           color var(--gray1)
 
       section
-        &:not(:first-child)
-          margin-top: 30px
-
         header
           h2
             color var(--gray1)
             font-size: 1.7em
 
         article
-          padding-bottom: 30px
-
           &::after
             border-color: var(--gray10)
 
