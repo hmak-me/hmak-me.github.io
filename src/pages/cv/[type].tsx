@@ -25,9 +25,8 @@ function formatPhoneNumber(phone: string): string {
 }
 
 
-const CVPage = (props) => {
-  console.log(props)
-  const data = full
+const CVPage = ({ type }) => {
+  const data = { 'full-stack': full, 'back-end': back, 'front-end': front }[type] ?? full
 
   return (
     <main className={styles.cvPage}>
