@@ -42,83 +42,113 @@
     }
   ],
 
+  "skills": [
+    {
+      "name":"Javascript",
+      "expertise": 4.5
+    },
+    {
+      "name": "Typescript",
+      "expertise": 4
+    },
+    {
+      "name": "Node.js",
+      "expertise": 4
+    },
+    {
+      "name": "PHP",
+      "expertise": 4
+    },
+    {
+      "name": "Python",
+      "expertise": 3
+    },
+    {
+      "name": "GraphQL",
+      "expertise": 5
+    },
+    {
+      "name": "RESTful APIs",
+      "expertise": 5
+    },
+    {
+      "name": "SQL Databases",
+      "expertise": 4
+    },
+    {
+      "name": "Design Patterns",
+      "expertise": 3
+    },
+    {
+      "name": "VCS",
+      "expertise": 3.5
+    }
+  ],
+
   "experiences": [
     {
       "date": "2014 - Now",
       "location": "Isfahan, Iran",
       "jobTitle": "Freelance Developer",
-      "description": "I've been a freelance developer since 2014. Created an online shopping website using pure PHP, HTML and CSS as my first project. Then I registered in a freelancing website and took a couple of iOS mobile applications and created them with Objective-C and Swift. I've built on mobile and desktop games using Unity Engine. I also created full websites.",
       "highlights": [
-        "Develop Gift Card Shopping Website using PHP",
-        "Develop iOS Applications using Objective-C and Swift",
-        "Implement AES-CBC-192 Algorithm for a Swift iOS Application",
-        "Creat Mobile and Desktop Games using Unity Engine"
+        "Develop E-Commerce Website using PHP",
+        "Develop Photography Portfolio Website using PHP",
+        "Develop Company Website using Laravel"
       ]
     },
     {
-      "date": "Feb 2016 - Mar 2016",
-      "location": "Ravis | Isfahan, Iran",
-      "jobTitle": "iOS Developer",
-      "description": "Ravis is a flight ticket reseller which was providing a platform to sell charter flight tickets online. They had a fully functional website and I've joined their team to develop an iOS application with Swift to communicate with their APIs and provide the same functionality to their mobile users.",
+      "date": "May 2017 - Dec 2017",
+      "location": "Royal Club | Isfahan, Iran",
+      "jobTitle": "Back-end Developer",
       "highlights": [
-        "Design iOS UI Based on the Existing Android Application",
-        "Develop a Persian Date Range Picker",
-        "Utilize WSDL Services to Communicate with the Existing API"
+        "Develop Game Server using Node.js and Socket.io",
+        "Handle Groups of Players to Achieve Multiplayer Games",
+        "Secure User Connections using a Custom AES Token",
+        "Replace Semi-AI Player with Disconnected Users"
       ]
     },
     {
-      "date": "2016 - 2017",
-      "location": "Solar Sky | Iceland",
-      "jobTitle": "Front-end Developer",
-      "description": "I was working with a team of .NET developers which was working remotely with Solar Sky which was a cleaning services company. We were working on their internal management panel to make managing their employees and clients easier. It was built on a C# and .NET base and I implemented their UI designs with HTML5, SCSS and jQuery.",
+      "date": "Dec 2017 - Aug 2018",
+      "location": "Kavoshak | Isfahan, Iran",
+      "jobTitle": "Back-end Developer",
       "highlights": [
-        "Implement User Interfaces using HTML, SCSS and jQuery",
-        "Replace New Interface in a .NET Code Base",
-        "Deliver Assigned Tasks in the Azure Project Management Platform",
-        "Extend .NET Entities to Fit into the New User Interface"
-      ]
-    },
-    {
-      "date": "Mar 2019 - May 2019",
-      "location": "Raadkish | Kish, Iran",
-      "jobTitle": "Front-end Developer",
-      "description": "During my training for WorldSkills 2019 competition, I've joined Raadkish as a front-end developer to improve my skills there. They were working on startup fintech and tourist services. I've learned to code in React and React Native to develop the front-end parts of their websites and applications. Working along with Hadi Mostafapour took me to another level of web development. It was a great experience to see how things can be done better and faster, and learn best practices and new technologies in web development.",
-      "highlights": [
-        "Implement User Interfaces using React JS"
+        "Create Admin Panel APIs using Laravel",
+        "Crawl Prices from Online Shops using a Python Bot",
+        "Write Complex Database Queries to Provide Price Analysis",
+        "Automatically Choose Product Names based on Keywords"
       ]
     },
     {
       "date": "Dec 2019 - Jul 2020",
       "location": "Kish Airport | Kish, Iran",
       "jobTitle": "Full-stack Developer",
-      "description": "Load and balance has some procedures to find the center of gravity of an airplane to use it for taking-off and landing. They were calculating the CG manually on papers, and my job was to created a website to do this automatically. It was created with Laravel and React. A challenging part of this project was its' data entry forms, since there was a ton of nested and related forms which was addressed by creating a form scaffolding structure, to create all those forms based on their database structure. I also had to work with the Airport DCS APIs to get flights and passengers data.",
       "highlights": [
-        "Implement Load & Balance System Based on AHM-560 Standard",
-        "Create Form Scaffolding Structure to Create Complex Nested Forms",
-        "Communicate with DCS APIs to Get Flight Schedule",
-        "Generate Real-Time CG Chart from Calculations"
+        "Create ACL Controlled APIs using Laravel",
+        "Implement a Shared CRUD Class to Reduce Duplicate Codes",
+        "Implement Database Entities Property Inheritance",
+        "Communicate with DCS APIs to Get Flight Data and Manifest"
       ]
     },
     {
       "date": "Jan 2020 - May 2020",
       "location": "Hamresan | Tehran, Iran",
       "jobTitle": "Full-stack Developer",
-      "description": "I joined as the first developer to the Hamresan company as a full-stack developer. We started a PWA application to provide live flight and cruises schedule, and let users get their flight boarding pass or reserve and buy cruise tickets on their phones. This project was built with Node.js and React and used GraphQL and Socket.io for the communication between the client and the server.",
       "highlights": [
-        "Implement Real-Time using Socket.io",
+        "Develop a Server-Side Application using Node.js",
+        "Utilize REST, GraphQL and Socket.io to Serve Data",
         "Implement Web Hooks to be Called by External Data Sources",
-        "Sync GraphQL Data with Incoming Socket Data"
+        "Sync Local Flights with Actual Airport Flight Schedule"
       ]
     },
     {
       "date": "May 2020 - Now",
       "location": "Hamresan | Tehran, Iran",
-      "jobTitle": "Team Lead & Back-end Developer",
-      "description": "After the company decided to recruit more developers, I've worked as the project manager and the team lead, learned to be a Scrum master and manage a project. We have created several web applications since then. A PWA Podcast app, a couple of medical websites and an online learning platform. Meanwhile, I was working as a Back-end developer and implemented a Node.js framework with Typescript which boosts bootstrapping our projects.",
+      "jobTitle": "Team Lead & Full-stack Developer",
       "highlights": [
-        "Create a Node.js Back-End Framework with Typescript",
-        "Improve GraphQL and Database Performance",
-        "Generate Multiple Video Qualities using FFMPEG"
+        "Create a Node.js Back-End Framework using Typescript",
+        "Improve GraphQL and Database Performance by Reducing Queries",
+        "Generate Multiple Audio Qualities using FFMPEG",
+        "Extract Wave Form Data from Uploaded Audio Files"
       ]
     }
   ]
