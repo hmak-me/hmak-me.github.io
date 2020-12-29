@@ -1,9 +1,9 @@
 {
   "firstName": "Hossein",
   "lastName": "Maktoobian",
-  "jobTitle": "Full-Stack Web Developer",
+  "jobTitle": "Full-Stack Developer",
 
-  "profile": "Self taught programmer who is eager to learn more and more everyday. I got engaged with computers when I was 5, and that was the beginning of the love story. Started my web development career in high school (2013) and kept it up until this moment.",
+  "profile": "I was coding for seven years in many platforms and coding languages like Desktop Applications, Game Development, iOS Apps, etc. My career started with Web Development and still goes on with the love of Javascript. It always pleases me to solve different problems.",
 
   "contacts": {
     "phone": "+989134625632",
@@ -32,12 +32,12 @@
   "awards": [
     {
       "date": "Jul 28, 2018",
-      "competition": "18th Iran National Skills",
+      "competition": "Web Technologies | 18th Iran National Skills",
       "award": "Gold Medal"
     },
     {
       "date": "Aug 27, 2019",
-      "competition": "45th WorldSkills Competition",
+      "competition": "Web Technologies | 45th WorldSkills Competition",
       "award": "Medallion Of Excellence"
     }
   ],
