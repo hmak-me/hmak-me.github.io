@@ -27,7 +27,7 @@ function formatPhoneNumber(phone: string): string {
 }
 
 
-const CVPage = ({ type }) => {
+const CVPage = ({ '*': type }) => {
   const data = { 'full-stack': full, 'back-end': back, 'front-end': front }[type] ?? full
 
   return (
