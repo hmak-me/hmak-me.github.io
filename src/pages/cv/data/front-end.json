@@ -18,27 +18,27 @@
 
   "educations": [
     {
-      "date": "Sep 23, 2015 - Jan 20, 2018",
-      "university": "Mohajer Technical and Vocational College",
-      "degree": "Associate of Software Engineering"
-    },
-    {
       "date": "Sep 23, 2019 - Now",
       "university": "Shamsipour Technical and Vocational College",
       "degree": "Bachelor of Software Engineering"
+    },
+    {
+      "date": "Sep 23, 2015 - Jan 20, 2018",
+      "university": "Mohajer Technical and Vocational College",
+      "degree": "Associate of Software Engineering"
     }
   ],
 
   "awards": [
     {
-      "date": "Jul 28, 2018",
-      "competition": "Web Technologies | 18th Iran National Skills",
-      "award": "Gold Medal"
-    },
-    {
       "date": "Aug 27, 2019",
       "competition": "Web Technologies | 45th WorldSkills Competition",
       "award": "Medallion Of Excellence"
+    },
+    {
+      "date": "Jul 28, 2018",
+      "competition": "Web Technologies | 18th Iran National Skills",
+      "award": "Gold Medal"
     }
   ],
 
@@ -83,46 +83,16 @@
 
   "experiences": [
     {
-      "date": "2014 - Now",
-      "location": "Isfahan, Iran",
-      "jobTitle": "Freelance Developer",
+      "date": "Jan 2020 - May 2020",
+      "duration": "5 Months",
+      "location": "Hamresan | Tehran, Iran",
+      "jobTitle": "Full-Stack Developer",
       "highlights": [
-        "Develop E-Commerce Website using Vanilla JS",
-        "Develop Photography Portfolio Website using jQuery",
-        "Develop Company Website using Vue Js"
-      ]
-    },
-    {
-      "date": "Dec 2017 - Aug 2018",
-      "duration": "8 Months",
-      "location": "Kavoshak | Isfahan, Iran",
-      "jobTitle": "Front-End Developer",
-      "highlights": [
-        "Create Complex Custom Form Inputs using Vue Js",
-        "Develop an Admin Panel using Vue Js in Laravel",
-        "Develop a Chrome Extension to Provide Price Analysis"
-      ]
-    },
-    {
-      "date": "Jan 2017 - May 2018",
-      "duration": "17 Months",
-      "location": "Solar Sky | Iceland",
-      "jobTitle": "Front-End Developer",
-      "highlights": [
-        "Implement User Interfaces using HTML, SCSS and jQuery",
-        "Develop Selectable Custom UI Themes",
-        "Develop Custom Form Components using jQuery Plugins"
-      ]
-    },
-    {
-      "date": "Mar 2019 - May 2019",
-      "duration": "3 Months",
-      "location": "Raadkish | Kish, Iran",
-      "jobTitle": "Front-End Developer",
-      "highlights": [
-        "Implement User Interfaces using React JS",
-        "Implement Customized UI Kits from Designed Style Guide",
-        "Implement Optimistic Interface for Requests"
+        "Design and Implement User Interfaces using React Js ans Stylus",
+        "Implement A Real-Time Connection using Socket.io",
+        "Sync Incoming Socket Data with Initial GraphQL Data",
+        "Create Platform Specific Interfaces based on User Device",
+        "Develop an Installable PWA Mobile Friendly Web Application"
       ]
     },
     {
@@ -138,29 +108,46 @@
       ]
     },
     {
-      "date": "Jan 2020 - May 2020",
-      "duration": "5 Months",
-      "location": "Hamresan | Tehran, Iran",
-      "jobTitle": "Full-Stack Developer",
+      "date": "Mar 2019 - May 2019",
+      "duration": "3 Months",
+      "location": "Raadkish | Kish, Iran",
+      "jobTitle": "Front-End Developer",
       "highlights": [
-        "Design and Implement User Interfaces using React Js ans Stylus",
-        "Implement A Real-Time Connection using Socket.io",
-        "Sync Incoming Socket Data with Initial GraphQL Data",
-        "Create Platform Specific Interfaces based on User Device",
-        "Develop an Installable PWA Mobile Friendly Web Application"
+        "Implement User Interfaces using React JS",
+        "Implement Customized UI Kits from Designed Style Guide",
+        "Implement Optimistic Interface for Requests"
       ]
     },
     {
-      "date": "May 2020 - Now",
-      "duration": "9 Months",
-      "location": "Hamresan | Tehran, Iran",
-      "jobTitle": "Team Lead & Full-Stack Developer",
+      "date": "Jan 2017 - May 2018",
+      "duration": "17 Months",
+      "location": "Solar Sky | Iceland",
+      "jobTitle": "Front-End Developer",
       "highlights": [
-        "Develop A Full Featured Admin Panel using React Js ans Stylus",
-        "Generate Financial and User Behavior Charts and Reports",
-        "Develop a PWA Application using Next Js and Workbox",
-        "Generate Spectrum Timeline for Audio Player in Canvas",
-        "Generate Live Equalizer using Web Audio APIs and Canvas"
+        "Implement User Interfaces using HTML, SCSS and jQuery",
+        "Develop Selectable Custom UI Themes",
+        "Develop Custom Form Components using jQuery Plugins"
+      ]
+    },
+    {
+      "date": "Dec 2017 - Aug 2018",
+      "duration": "8 Months",
+      "location": "Kavoshak | Isfahan, Iran",
+      "jobTitle": "Front-End Developer",
+      "highlights": [
+        "Create Complex Custom Form Inputs using Vue Js",
+        "Develop an Admin Panel using Vue Js in Laravel",
+        "Develop a Chrome Extension to Provide Price Analysis"
+      ]
+    },
+    {
+      "date": "2014 - Now",
+      "location": "Isfahan, Iran",
+      "jobTitle": "Freelance Developer",
+      "highlights": [
+        "Develop E-Commerce Website using Vanilla JS",
+        "Develop Photography Portfolio Website using jQuery",
+        "Develop Company Website using Vue Js"
       ]
     }
   ]

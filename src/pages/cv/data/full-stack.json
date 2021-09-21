@@ -18,27 +18,27 @@
 
   "educations": [
     {
-      "date": "Sep 23, 2015 - Jan 20, 2018",
-      "university": "Mohajer Technical and Vocational College",
-      "degree": "Associate of Software Engineering"
-    },
-    {
       "date": "Sep 23, 2019 - Now",
       "university": "Shamsipour Technical and Vocational College",
       "degree": "Bachelor of Software Engineering"
+    },
+    {
+      "date": "Sep 23, 2015 - Jan 20, 2018",
+      "university": "Mohajer Technical and Vocational College",
+      "degree": "Associate of Software Engineering"
     }
   ],
 
   "awards": [
     {
-      "date": "Jul 28, 2018",
-      "competition": "Web Technologies | 18th Iran National Skills",
-      "award": "Gold Medal"
-    },
-    {
       "date": "Aug 27, 2019",
       "competition": "Web Technologies | 45th WorldSkills Competition",
       "award": "Medallion Of Excellence"
+    },
+    {
+      "date": "Jul 28, 2018",
+      "competition": "Web Technologies | 18th Iran National Skills",
+      "award": "Gold Medal"
     }
   ],
 
@@ -83,60 +83,16 @@
 
   "experiences": [
     {
-      "date": "2014 - Now",
-      "location": "Isfahan, Iran",
-      "jobTitle": "Freelance Developer",
+      "date": "May 2020 - Now",
+      "duration": "9 Months",
+      "location": "Hamresan | Tehran, Iran",
+      "jobTitle": "Team Lead & Full-Stack Developer",
       "highlights": [
-        "Develop E-Commerce and Portfolio Websites using PHP",
-        "Develop iOS Applications using Objective-C and Swift",
-        "Implement AES-CBC-128 Algorithm for a Swift iOS Application",
-        "Create Mobile and Desktop Games utilizing Unity Engine"
-      ]
-    },
-    {
-      "date": "Feb 2016 - Mar 2016",
-      "duration":"2 Months",
-      "location": "Ravis | Isfahan, Iran",
-      "jobTitle": "iOS Developer",
-      "highlights": [
-        "Designed iOS Application based on Existing Android App",
-        "Develop an Advanced Persian Date Picker Component",
-        "Integrate ZarinPal IPG for Flight Ticket Payments",
-        "Utilize WSDL Services to Communicate with their API"
-      ]
-    },
-    {
-      "date": "Jan 2017 - May 2018",
-      "duration": "17 Months",
-      "location": "Solar Sky | Iceland",
-      "jobTitle": "Front-End Developer",
-      "highlights": [
-        "Implement User Interfaces using HTML, SCSS and jQuery",
-        "Develop Selectable Custom UI Themes",
-        "Develop Custom Form Components using jQuery Plugins"
-      ]
-    },
-    {
-      "date": "Mar 2019 - May 2019",
-      "duration": "3 Months",
-      "location": "Raadkish | Kish, Iran",
-      "jobTitle": "Front-End Developer",
-      "highlights": [
-        "Implement User Interfaces using React JS",
-        "Implement Customized UI Kits from Designed Style Guide",
-        "Implement Optimistic Interface for Requests"
-      ]
-    },
-    {
-      "date": "Dec 2019 - Jul 2020",
-      "duration": "8 Months",
-      "location": "Kish Airport | Kish, Iran",
-      "jobTitle": "Full-Stack Developer",
-      "highlights": [
-        "Create Airplane Load & Balance System using Laravel",
-        "Communicate with DCS APIs to Get Flight Data and Manifest",
-        "Create Form Scaffolding Structure to Handle Nested Forms",
-        "Generate Live Flight CG Chart from Calculations"
+        "Create a Node.js Back-End Framework using Typescript",
+        "Generate Multiple Audio Qualities using FFMPEG",
+        "Extract Wave Form Data from Uploaded Audio Files",
+        "Develop a PWA Application using Next Js and Workbox",
+        "Generate Live Equalizer using Web Audio APIs and Canvas"
       ]
     },
     {
@@ -152,16 +108,60 @@
       ]
     },
     {
-      "date": "May 2020 - Now",
-      "duration": "9 Months",
-      "location": "Hamresan | Tehran, Iran",
-      "jobTitle": "Team Lead & Full-Stack Developer",
+      "date": "Dec 2019 - Jul 2020",
+      "duration": "8 Months",
+      "location": "Kish Airport | Kish, Iran",
+      "jobTitle": "Full-Stack Developer",
       "highlights": [
-        "Create a Node.js Back-End Framework using Typescript",
-        "Generate Multiple Audio Qualities using FFMPEG",
-        "Extract Wave Form Data from Uploaded Audio Files",
-        "Develop a PWA Application using Next Js and Workbox",
-        "Generate Live Equalizer using Web Audio APIs and Canvas"
+        "Create Airplane Load & Balance System using Laravel",
+        "Communicate with DCS APIs to Get Flight Data and Manifest",
+        "Create Form Scaffolding Structure to Handle Nested Forms",
+        "Generate Live Flight CG Chart from Calculations"
+      ]
+    },
+    {
+      "date": "Mar 2019 - May 2019",
+      "duration": "3 Months",
+      "location": "Raadkish | Kish, Iran",
+      "jobTitle": "Front-End Developer",
+      "highlights": [
+        "Implement User Interfaces using React JS",
+        "Implement Customized UI Kits from Designed Style Guide",
+        "Implement Optimistic Interface for Requests"
+      ]
+    },
+    {
+      "date": "Jan 2017 - May 2018",
+      "duration": "17 Months",
+      "location": "Solar Sky | Iceland",
+      "jobTitle": "Front-End Developer",
+      "highlights": [
+        "Implement User Interfaces using HTML, SCSS and jQuery",
+        "Develop Selectable Custom UI Themes",
+        "Develop Custom Form Components using jQuery Plugins"
+      ]
+    },
+    {
+      "date": "Feb 2016 - Mar 2016",
+      "duration":"2 Months",
+      "location": "Ravis | Isfahan, Iran",
+      "jobTitle": "iOS Developer",
+      "highlights": [
+        "Designed iOS Application based on Existing Android App",
+        "Develop an Advanced Persian Date Picker Component",
+        "Integrate ZarinPal IPG for Flight Ticket Payments",
+        "Utilize WSDL Services to Communicate with their API"
+      ]
+    },
+    {
+      "date": "2014 - Now",
+      "location": "Isfahan, Iran",
+      "jobTitle": "Freelance Developer",
+      "highlights": [
+        "Develop E-Commerce and Portfolio Websites using PHP",
+        "Develop iOS Applications using Objective-C and Swift",
+        "Implement AES-CBC-128 Algorithm for a Swift iOS Application",
+        "Create Mobile and Desktop Games utilizing Unity Engine"
       ]
     }
   ]

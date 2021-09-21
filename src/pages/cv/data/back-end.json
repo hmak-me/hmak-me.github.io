@@ -18,27 +18,27 @@
 
   "educations": [
     {
-      "date": "Sep 23, 2015 - Jan 20, 2018",
-      "university": "Mohajer Technical and Vocational College",
-      "degree": "Associate of Software Engineering"
-    },
-    {
       "date": "Sep 23, 2019 - Now",
       "university": "Shamsipour Technical and Vocational College",
       "degree": "Bachelor of Software Engineering"
+    },
+    {
+      "date": "Sep 23, 2015 - Jan 20, 2018",
+      "university": "Mohajer Technical and Vocational College",
+      "degree": "Associate of Software Engineering"
     }
   ],
 
   "awards": [
     {
-      "date": "Jul 28, 2018",
-      "competition": "Web Technologies | 18th Iran National Skills",
-      "award": "Gold Medal"
-    },
-    {
       "date": "Aug 27, 2019",
       "competition": "Web Technologies | 45th WorldSkills Competition",
       "award": "Medallion Of Excellence"
+    },
+    {
+      "date": "Jul 28, 2018",
+      "competition": "Web Technologies | 18th Iran National Skills",
+      "award": "Gold Medal"
     }
   ],
 
@@ -83,49 +83,27 @@
 
   "experiences": [
     {
-      "date": "2014 - Now",
-      "location": "Isfahan, Iran",
-      "jobTitle": "Freelance Developer",
+      "date": "June 2021 - Now",
+      "duration": "3 Months",
+      "location": "Hamresan | Tehran, Iran",
+      "jobTitle": "Chief Technology Officer",
       "highlights": [
-        "Develop E-Commerce Website using PHP",
-        "Develop Photography Portfolio Website using PHP",
-        "Develop Company Website using Laravel"
+        "Create a Node.js Back-End Framework using Typescript",
+        "Improve GraphQL and Database Performance by Reducing Queries",
+        "Generate Multiple Audio Qualities using FFMPEG",
+        "Extract Wave Form Data from Uploaded Audio Files"
       ]
     },
     {
-      "date": "May 2017 - Dec 2017",
-      "duration": "8 Months",
-      "location": "Royal Club | Isfahan, Iran",
-      "jobTitle": "Back-End Developer",
+      "date": "May 2020 - June 2021",
+      "duration": "9 Months",
+      "location": "Hamresan | Tehran, Iran",
+      "jobTitle": "Lead Developer",
       "highlights": [
-        "Develop Game Server using Node.js and Socket.io",
-        "Handle Groups of Players to Achieve Multiplayer Games",
-        "Secure User Connections using a Custom AES Token",
-        "Replace Semi-AI Player with Disconnected Users"
-      ]
-    },
-    {
-      "date": "Dec 2017 - Aug 2018",
-      "duration": "8 Months",
-      "location": "Kavoshak | Isfahan, Iran",
-      "jobTitle": "Back-End Developer",
-      "highlights": [
-        "Create Admin Panel APIs using Laravel",
-        "Crawl Prices from Online Shops using a Python Bot",
-        "Write Complex Database Queries to Provide Price Analysis",
-        "Automatically Choose Product Names based on Keywords"
-      ]
-    },
-    {
-      "date": "Dec 2019 - Jul 2020",
-      "duration": "8 Months",
-      "location": "Kish Airport | Kish, Iran",
-      "jobTitle": "Full-Stack Developer",
-      "highlights": [
-        "Create ACL Controlled APIs using Laravel",
-        "Implement a Shared CRUD Class to Reduce Duplicate Codes",
-        "Implement Database Entities Property Inheritance",
-        "Communicate with DCS APIs to Get Flight Data and Manifest"
+        "Create a Node.js Back-End Framework using Typescript",
+        "Improve GraphQL and Database Performance by Reducing Queries",
+        "Generate Multiple Audio Qualities using FFMPEG",
+        "Extract Wave Form Data from Uploaded Audio Files"
       ]
     },
     {
@@ -141,15 +119,49 @@
       ]
     },
     {
-      "date": "May 2020 - Now",
-      "duration": "9 Months",
-      "location": "Hamresan | Tehran, Iran",
-      "jobTitle": "Team Lead & Full-Stack Developer",
+      "date": "Dec 2019 - Jul 2020",
+      "duration": "8 Months",
+      "location": "Kish Airport | Kish, Iran",
+      "jobTitle": "Full-Stack Developer",
       "highlights": [
-        "Create a Node.js Back-End Framework using Typescript",
-        "Improve GraphQL and Database Performance by Reducing Queries",
-        "Generate Multiple Audio Qualities using FFMPEG",
-        "Extract Wave Form Data from Uploaded Audio Files"
+        "Create ACL Controlled APIs using Laravel",
+        "Implement a Shared CRUD Class to Reduce Duplicate Codes",
+        "Implement Database Entities Property Inheritance",
+        "Communicate with DCS APIs to Get Flight Data and Manifest"
+      ]
+    },
+    {
+      "date": "Dec 2017 - Aug 2018",
+      "duration": "8 Months",
+      "location": "Kavoshak | Isfahan, Iran",
+      "jobTitle": "Back-End Developer",
+      "highlights": [
+        "Create Admin Panel APIs using Laravel",
+        "Crawl Prices from Online Shops using a Python Bot",
+        "Write Complex Database Queries to Provide Price Analysis",
+        "Automatically Choose Product Names based on Keywords"
+      ]
+    },
+    {
+      "date": "May 2017 - Dec 2017",
+      "duration": "8 Months",
+      "location": "Royal Club | Isfahan, Iran",
+      "jobTitle": "Back-End Developer",
+      "highlights": [
+        "Develop Game Server using Node.js and Socket.io",
+        "Handle Groups of Players to Achieve Multiplayer Games",
+        "Secure User Connections using a Custom AES Token",
+        "Replace Semi-AI Player with Disconnected Users"
+      ]
+    },
+    {
+      "date": "2014 - Now",
+      "location": "Isfahan, Iran",
+      "jobTitle": "Freelance Developer",
+      "highlights": [
+        "Develop E-Commerce Website using PHP",
+        "Develop Photography Portfolio Website using PHP",
+        "Develop Company Website using Laravel"
       ]
     }
   ]
