@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import SEO from "../../components/seo"
 import GitHubIcon from "../../assets/icons/github"
 import TwitterIcon from "../../assets/icons/twitter"
@@ -28,7 +28,44 @@ function formatPhoneNumber(phone: string): string {
 
 
 const CVPage = ({ location }) => {
-  const data = { '#full-stack': full, '#back-end': back, '#front-end': front }[location.hash] ?? full
+  const [data, setData] = useState(
+    {
+      '#full-stack': full,
+      '#back-end': back,
+      '#front-end': front
+    }[location.hash] ?? full
+  )
+
+  const handleDrag = (e) => {
+    e.preventDefault()
+  }
+
+  const handleDrop = (e) => {
+    if (e.dataTransfer.files.length > 0) {
+      const fileReader = new FileReader()
+      fileReader.onload = () => {
+        try {
+          setData(JSON.parse(fileReader.result as string))
+        } catch {}
+      }
+
+      fileReader.readAsText(e.dataTransfer.files[0], 'utf8')
+    }
+
+    e.preventDefault();
+  }
+
+  useEffect(() => {
+    document.addEventListener("dragenter", handleDrag);
+    document.addEventListener("dragover", handleDrag);
+    document.addEventListener("drop", handleDrop);
+
+    return () => {
+      document.removeEventListener("dragenter", handleDrag);
+      document.removeEventListener("dragover", handleDrag);
+      document.removeEventListener("drop", handleDrop);
+    }
+  })
 
   return (
     <main className={styles.cvPage}>
@@ -160,7 +197,7 @@ const CVPage = ({ location }) => {
                 <ul className={styles.links}>
                   {data.socials.github && (
                     <li className={styles.link}>
-                      <a target='_blank' rel='noopener' href={`https://gihub.com/${data.socials.github}`}>
+                      <a target='_blank' rel='noopener' href={`https://github.com/${data.socials.github}`}>
                         <GitHubIcon />
                         <span>@{data.socials.github}</span>
                       </a>

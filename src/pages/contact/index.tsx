@@ -26,9 +26,9 @@ const ContactPage = () => {
                 <PhoneIcon/>
                 <span>+98 913-462-5632</span>
               </a>
-              <a href={'mailto:8bitsight@gmail.com'} className={styles.link}>
+              <a href={'mailto:hossein.maktoobian@gmail.com'} className={styles.link}>
                 <EmailIcon/>
-                <span>8bitsight@gmail.com</span>
+                <span>hossein.maktoobian@gmail.com</span>
               </a>
             </div>
           </section>
